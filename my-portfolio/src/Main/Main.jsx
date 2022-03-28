@@ -6,7 +6,7 @@ export default React.memo(function Main() {
     let userData = resumeContent;
 
     console.log(userData)
-  f   return (
+    return (
         <div className="main">
             <article className="main-article-about">
                 <h2 className="main-article-about-title">{userData.about.title}</h2>
